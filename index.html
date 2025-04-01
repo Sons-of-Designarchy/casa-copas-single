@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cosmic Opus 1</title>
+  <script src="https://cdn.tailwindcss.com"></script>
+  <style>
+    @import url('https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,700;1,400&display=swap');
+    
+    body {
+      font-family: 'Playfair Display', serif;
+    }
+    
+    .spiral-bg {
+      background-image: url('https://placeholder.com/1080x1080');
+      opacity: 0.1;
+    }
+  </style>
+</head>
+<body class="min-h-screen bg-black text-white relative flex items-center justify-center">
+  <!-- Spiral Background -->
+  <div class="absolute inset-0 spiral-bg bg-cover bg-center pointer-events-none"></div>
+  
+  <!-- Main Content -->
+  <main class="relative z-10 container mx-auto px-4 py-12">
+    <section class="max-w-2xl mx-auto">
+      <!-- Main Box -->
+      <div class="bg-zinc-900/80 backdrop-blur-sm p-8 rounded-lg border border-zinc-800/50 shadow-xl mb-8">
+        <p class="text-white leading-relaxed mb-6">
+          'Cosmic Opus 1' is a transcendent folk composition by Casa de Copas that explores the mystical connection between celestial movements and human consciousness. Drawing from Wagner's dramatic compositions and the symbolic imagery of tarot, this opus weaves a tapestry of sound that invites listeners to journey through the spiral of cosmic existence. Recorded with traditional instruments and infused with the essence of palo santo and sage, this musical offering serves as a portal to deeper spiritual realms.
+        </p>
+        <div class="flex justify-center">
+          <button class="bg-white hover:bg-zinc-200 text-black py-4 px-6 text-lg rounded-md flex items-center justify-center transition-colors">
+            <svg xmlns="http://www.w3.org/2000/svg" class="h-5 w-5 mr-3" fill="none" viewBox="0 0 24 24" stroke="currentColor">
+              <path stroke-linecap="round" stroke-linejoin="round" stroke-width="2" d="M4 16v1a3 3 0 003 3h10a3 3 0 003-3v-1m-4-4l-4 4m0 0l-4-4m4 4V4" />
+            </svg>
+            Download MP3
+          </button>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <!-- Footer -->
+  <footer class="fixed bottom-0 w-full border-t border-zinc-900/50 bg-zinc-950/80 backdrop-blur-sm z-10">
+    <div class="container mx-auto py-4 px-4 text-center">
+      <p class="text-zinc-400 text-sm">© <script>document.write(new Date().getFullYear())</script> Casa de Copas. All rights reserved.</p>
+    </div>
+  </footer>
+</body>
+</html>
+
